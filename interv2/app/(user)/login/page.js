@@ -25,12 +25,13 @@ const Login=()=>{
   }
 
   return ( 
-    <div style={{background:" rgba(255, 6, 6, 0.77)",display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+    <div style={{background:" rgba(255, 6, 6, 0.77)",height: '100vh' }}>
+    <SignOutNavbar />
+    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
     <div className="login-container">
-      <SignOutNavbar></SignOutNavbar>
       <p>Please Sign in</p>
       <button onClick={() => signIn()}>Sign In</button>
-
+    </div>
     </div>
     </div>
   );

@@ -1,4 +1,6 @@
 'use client'
+import '@/app/globals.css';
+
 import { useRouter } from "next/navigation"
 const HomePage = ()=>{
     const router = useRouter();

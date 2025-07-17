@@ -7,10 +7,8 @@ const UserNavbar = () => {
     <>
     <div className="header">
         <span>User</span>
-      <nav>
-        <p onClick={()=>route.push("/")}>User Home</p>
-        <p onClick={()=>route.push("/")}>Logout Page</p>
-      </nav>
+        <p onClick={()=>route.push("/")}>Home</p>
+        <p onClick={()=>route.push("/")}>signOut</p>
     </div>
     </>
   );

@@ -5,12 +5,10 @@ const SignOutNavbar = () => {
   const route = useRouter();
   return (
     <>
-    <div className="header">
+    <div className="header" style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
         <span>User</span>
-      <nav>
         <p onClick={()=>route.push("/")}>User Home</p>
         <p onClick={()=>route.push("/login")}>Login Page</p>
-      </nav>
     </div>
     </>
   );
